@@ -1,0 +1,251 @@
+
+#navlink1 {
+    color: #323f4b;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#navlink2 {
+    color: #323f4b;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#navlink3 {
+    color: #323f4b;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#navlink4 {
+    color: #323f4b;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#navlink5 {
+    color: #323f4b;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#navlink6 {
+    color: #323f4b;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.nav-list-right{
+    margin-left:auto;
+}
+
+.banner-bg-container {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png');
+    height:85vh;
+    background-size:cover;
+}
+#navlink1:hover{
+    text-shadow:#fcf003;
+    color: #d0b200;
+}
+#navlink2:hover{
+    text-shadow:#fcf003;
+    color: #d0b200;
+}
+#navlink3:hover{
+    text-shadow:#fcf003;
+    color: #d0b200;
+}
+#navlink4:hover{
+    text-shadow:#fcf003;
+    color: #d0b200;
+}
+#navlink5:hover{
+    text-shadow:#fcf003;
+    color: #d0b200;
+}
+#navlink6:hover{
+    text-shadow:#fcf003;
+    color: #d0b200;
+}
+
+.food-much-logo {
+    width: 80px;
+    height: 60px;
+    
+}
+
+.banner-heading {
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 45;
+}
+
+.banner-text {
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.custom-button {
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: #d0b200;
+    width: 140px;
+    height: 45px;
+    color: white;
+    margin-right: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+
+.custom-outline-button {
+    color: #d0b200;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #d0b200;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 140px;
+    height: 45px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+.view-menu-bg-container{
+    background-color: black;
+    background-size: cover;
+}
+.items-container{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.vertical-bar{
+    background-color: #d0b200;
+    display: inline-block;
+    width: 5px;
+    height: 24px;
+    margin:0;
+    margin-left:20px;
+    border-radius: 5px;
+    
+}
+.food-headings{
+    color: white;
+    padding-top: 30px;
+    display: inline-block;
+    margin-left: 7px;
+}
+.food-headings:hover{
+    color: darkgray;
+    cursor:pointer;
+}
+.item-container{
+    background-color: white;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+.item-container:hover{
+    background-color: aliceblue;
+}
+.nav-bar-alignment{
+    text-align: right;
+}
+.food-image{
+    width: 200px;
+    height: 200px;
+    border-top-left-radius:20px;
+    border-top-right-radius: 20px;
+}
+.food-name:hover{
+    color: #d0b200;
+    cursor: pointer;
+}
+.food-discription:hover{
+    color: #d0b200;
+    cursor: pointer;
+}
+.price-1{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.price-1:hover{
+    color: #d0b200;
+    cursor: pointer;
+}
+.price-2{
+    display: inline;
+    font-weight: 500;
+    margin: 0;
+}
+hr{
+    height:4px;
+    width: 96%;
+}
+.choose-bg-container{
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+}
+.choose-heading{
+    color: #d0b200;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+.choose-card{
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 30px;
+    border-radius: 30px;
+}
+.bold-heading{
+    font-weight: bold;
+}
+.choose-info{
+    font-size: 23px;
+    text-align: center;
+}
+.footer{
+    background-color:aliceblue;
+    color: #d0b200;
+    text-align: center;
+    margin-bottom: 0;
+}
+.choose-info:hover{
+    text-shadow: 2px 2px 5px gray;
+    cursor:pointer;
+}
+.pricehover:hover{
+    color: #d0b200;
+}
+
+/* Icon container styling */
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+/* Round background for icons */
+.icon-round {
+    background-color: black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for icons */
+.icon-round:hover {
+    background-color: #d0b200;
+}
+
+/* Icon styling */
+.icon-round a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}

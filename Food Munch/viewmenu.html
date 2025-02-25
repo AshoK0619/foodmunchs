@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodMunch</title>
+    <link rel="Icon" href="img/food-munch-img.png">
+    <link rel="stylesheet" href="foodmunchstyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5e46b167d5.js" crossorigin="anonymous"></script>
+    <script src="foodmuchjs.js" defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="food-much-logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav nav-list-right">
+                    <a class="nav-link active " onclick="foodMunchHome()" id="navlink1" href="#">Home<span class="sr-only"></span></a>
+                    <a class="nav-link " id="navlink2" href="#breakfastId">Breakfast</a>
+                    <a class="nav-link " id="navlink3" href="#lunchId">Lunch</a>
+                    <a class="nav-link " id="navlink4" href="#dinnerId">Dinner</a>
+                    <a class="nav-link " id="navlink5" href="#bevarageId">Beverages</a>
+                    <a class="nav-link " id="navlink6" href="#contactId">Contact Us</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="view-menu-bg-container">
+        <p class="vertical-bar"></p>
+        <h2 class="food-headings">Signature Dishes</h2>
+        <div class="items-container">
+            <div class="item-container">
+                <img class="food-image" src="img/taiwanichiken.jpeg">
+                <h5 class="food-name">Taiwani Chicken</h5>
+                <p class="food-discription">Saucy & Smoked</p>
+                <div>
+                    <h5 class="price-1">$12/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/prawn.jpeg">
+                <h5 class="food-name">Creamy Lobster</h5>
+                <p class="food-discription">Spicy & Creamy</p>
+                <div>
+                    <h5 class="price-1">$399/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/squid.jpeg">
+                <h5 class="food-name">Grilled Octobus</h5>
+                <p class="food-discription">Delicious & Nutritious</p>
+                <div>
+                    <h5 class="price-1">$499/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            
+            <div class="item-container">
+                <img class="food-image" src="img/fish.jpeg">
+                <h5 class="food-name">Cod Chickpeas</h5>
+                <p class="food-discription">Spicy tange</p>
+                <div>
+                    <h5 class="price-1">$450/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/crab.jpeg">
+                <h5 class="food-name">Coconut Crab Soup</h5>
+                <p class="food-discription">Spicy & Flavoured</p>
+                <div>
+                    <h5 class="price-1">$260/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            
+        </div>
+        <hr color="#d0b200"/>
+        <p class="vertical-bar"></p>
+        <h2 class="food-headings">BreakFast</h2>
+        <div id="breakfastId" class="items-container">
+            <div class="item-container">
+                <img class="food-image" src="img/idly.jpg">
+                <h5 class="food-name">Idly</h5>
+                <p class="food-discription">Smooth&Soft</p>
+                <div>
+                    <h5 class="price-1">$12/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/dosa.jpg">
+                <h5 class="food-name">Dosa</h5>
+                <p class="food-discription">Spicy&Cruncy</p>
+                <div>
+                    <h5 class="price-1">$90/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/pongal.jpeg">
+                <h5 class="food-name">Pongal</h5>
+                <p class="food-discription">Ghee Flavoured</p>
+                <div>
+                    <h5 class="price-1">$60/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            
+            <div class="item-container">
+                <img class="food-image" src="img/vada.jpg">
+                <h5 class="food-name">Vada</h5>
+                <p class="food-discription">Cruncy Snack</p>
+                <div>
+                    <h5 class="price-1">$10/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/aappam.jpeg">
+                <h5 class="food-name">Aappam</h5>
+                <p class="food-discription">Smooth & Soft</p>
+                <div>
+                    <h5 class="price-1">$20/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            
+        </div>
+        <hr color="#d0b200"/>
+        <p class="vertical-bar"></p>
+        <h2 class="food-headings">Lunch</h2>
+        <div id="lunchId" class="items-container">
+            <div class="item-container">
+                <img class="food-image" src="img/chickenBriyani.jpeg">
+                <h5 class="food-name">Chicken Briyani</h5>
+                <p class="food-discription">Flavoured & Juicy</p>
+                <div>
+                    <h5 class="price-1">$250/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/muttonbriyani.jpeg">
+                <h5 class="food-name">Mutton Briyani</h5>
+                <p class="food-discription">Best Aroma & Juicy</p>
+                <div>
+                    <h5 class="price-1">$340/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/beefbriyani.jpeg">
+                <h5 class="food-name">Beef Briyani</h5>
+                <p class="food-discription">Soft & Juicy</p>
+                <div>
+                    <h5 class="price-1">$280/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/eggbriyani.jpeg">
+                <h5 class="food-name">Egg Briyani</h5>
+                <p class="food-discription">Best Aroma</p>
+                <div>
+                    <h5 class="price-1">$230/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/meals.jpeg">
+                <h5 class="food-name">Non-veg Meals</h5>
+                <p class="food-discription">All Taste in One Plate</p>
+                <div>
+                    <h5 class="price-1">$250/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            
+        </div>
+        <hr color="#d0b200" />
+        <p class="vertical-bar"></p>
+        <h2 class="food-headings">Dinner</h2>
+        <div id="dinnerId" class="items-container">
+            <div class="item-container">
+                <img class="food-image" src="img/parotta.jpeg">
+                <h5 class="food-name">Parotta</h5>
+                <p class="food-discription">Cruncy&Soft</p>
+                <div>
+                    <h5 class="price-1">$25/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/dosa1.jpeg">
+                <h5 class="food-name">Dosa</h5>
+                <p class="food-discription">Crack & Jack</p>
+                <div>
+                    <h5 class="price-1">$90/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/chickenrice.jpeg">
+                <h5 class="food-name">Chicken Rice</h5>
+                <p class="food-discription">Best Flavoured Rice</p>
+                <div>
+                    <h5 class="price-1">$150/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/pannerrice.jpeg">
+                <h5 class="food-name">Panner Rice</h5>
+                <p class="food-discription">Soft & Tasty</p>
+                <div>
+                    <h5 class="price-1">$120/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/thanthoori.jpeg">
+                <h5 class="food-name">Thanthoori Chicken</h5>
+                <p class="food-discription">Juicy & Smoked</p>
+                <div>
+                    <h5 class="price-1">$12/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            
+        </div>
+        <p class="vertical-bar"></p>
+        <h2 class="food-headings">Beverages</h2>
+        <div id="beveragesId" class="items-container">
+            <div class="item-container">
+                <img class="food-image" src="img/berrymoji.jpeg">
+                <h5 class="food-name">Blueberry Mojito</h5>
+                <p class="food-discription">Feel the Taste buts</p>
+                <div>
+                    <h5 class="price-1">$90/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/lemonmoji.jpeg">
+                <h5 class="food-name">Lemon Mojito</h5>
+                <p class="food-discription">Fell Refresh</p>
+                <div>
+                    <h5 class="price-1">$90/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/peach.jpeg">
+                <h5 class="food-name">Peach Orange Shake</h5>
+                <p class="food-discription">Delicious Taste</p>
+                <div>
+                    <h5 class="price-1">$150/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/lemontea.jpeg">
+                <h5 class="food-name">Lemon Ice Tea</h5>
+                <p class="food-discription">Refreshing Feel</p>
+                <div class=".pricehover">
+                    <h5 class="price-1">$99/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <img class="food-image" src="img/bluemoji.jpeg">
+                <h5 class="food-name">Grape Mojito</h5>
+                <p class="food-discription">Pulpy Grapes</p>
+                <div>
+                    <h5 class="price-1">$12/</h5>
+                    <p class="price-2">per</p>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div id="contactId" class="footer">
+        <div class="foot">
+            <div class="icon-container">
+                <!-- Instagram Icon -->
+                <div class="icon-round">
+                    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <!-- Facebook Icon -->
+                <div class="icon-round">
+                    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <!-- Chat with Us Icon -->
+                <div class="icon-round">
+                    <a href="#" aria-label="Chat with Us">
+                        <i class="fas fa-comment-dots"></i>
+                    </a>
+                </div>
+                <div class="icon-round">
+                    <a href="#" aria-label="Phone">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                </div>
+                <div class="icon-round">
+                    <a href="#" aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            </div>
+            <p class="pt-2">9876543210 | foodmunch@gmail.com | Coimbatore</p>
+        <p>&copy; 2025 FoodMunch. All Rights Reserved.</p>
+        <p>Design By Ashoksharma</p>
+    </div>
+</body>
+</html>
